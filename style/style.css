@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  background-color: navy;
+}
+
+ul {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: 12px;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-right: 40%;
+  font-size: 1000%;
+}
+
+p {
+  color: whitesmoke;
+}
+
+#buy_tickets {
+  color: white;
+  border-radius: 10%;
+  background-color: orangered;
+}
+
+#chat {
+  color: white;
+  background-color: orangered;
+}
